@@ -1,0 +1,25 @@
+{
+  "name": "Burger-Logo",
+  "version": "1.0.0",
+  "description": "### Overview",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajnilprasad/Burger-Logo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajnilprasad/Burger-Logo/issues"
+  },
+  "homepage": "https://github.com/rajnilprasad/Burger-Logo#readme",
+  "dependencies": {
+    "latest": "^0.2.0",
+    "mysql": "^2.18.1"
+  }
+}
