@@ -1,16 +1,19 @@
-<h1>Update the quote with an id of {{this.id}}</h1>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Eat-da-burger</title>
+		<meta charset="UTF-8">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+	</head>
+	<body>
+		{{{ body }}}
 
-<form data-id="{{this.id}}" class="update-form">
-
-  <div class="form-group">
-    <label for="auth">Author:</label>
-    <input type="text" id="auth" name="author" value="{{this.author}}">
-  </div>
-
-  <div class="form-group">
-    <label for="quo">Quote:</label>
-    <textarea id="quo" name="quote" rows="8" cols="40">{{this.quote}}</textarea>
-  </div>
-
-  <button type="submit">Update Quote</button>
-</form>
+	{{!-- Add in jQuery --}}
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="/assets/js/script.js"></script>
+	</body>
+</html>
